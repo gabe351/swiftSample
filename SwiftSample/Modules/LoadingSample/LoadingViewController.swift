@@ -14,7 +14,8 @@ class LoadingViewController: UIViewController {
     let loader = LoaderViewController()
 
     override func viewDidLoad() {
-        super.viewDidLoad()                        
+        super.viewDidLoad()
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
