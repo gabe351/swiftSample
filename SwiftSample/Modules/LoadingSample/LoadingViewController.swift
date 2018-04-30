@@ -14,13 +14,7 @@ class LoadingViewController: UIViewController {
     let loader = LoaderViewController()
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        private let path = NSSearchPathForDirectoriesInDomains(
-            .documentDirectory, .userDomainMask, true
-            ).first!
-        let path = NSSearchPathForDirectoriesInDomains(.coreServiceDirectory, <#T##domainMask: FileManager.SearchPathDomainMask##FileManager.SearchPathDomainMask#>, <#T##expandTilde: Bool##Bool#>)
-        
+        super.viewDidLoad()                        
     }
     
     override func viewWillAppear(_ animated: Bool) {
